@@ -10,4 +10,4 @@ A small and fun Telegram bot that responds to a few simple commands like sending
 - `/chat <prompt>` : Talk to Google Gemini AI with any prompt and get a response.
 
 ## Test it on your own
-`https://t.me/YugankBot_bot`
+https://t.me/YugankBot_bot
