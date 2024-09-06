@@ -11,8 +11,9 @@ A small and fun Telegram bot that responds to a few simple commands like sending
 
 ## Important
 
-Remember to install the required modules by-
+- Remember to install the required modules by-
 ```npm install``` in the folder containing ```bot.js```
+- Make a ```.env``` file to store the api keys naming - ```TOKEN``` for telegram bot api and ```api_key``` for gemini api 
 
 ## Test it on your own
 https://t.me/YugankBot_bot
