@@ -71,7 +71,12 @@ bot.onText(/\/chat (.+)/, async (msg, match) => {
 // Handling other messages
 bot.on("message", async (msg) => {
     const chatId = msg.chat.id
-    const text = msg.text.toLowerCase()
+    const text = msg.text ? msg.text.toLowerCase() : null
+
+     if (!text) {
+        bot.sendMessage(chatId,"please only send messages in this bot")
+        return
+    }
 
     if (text === "$quote") {
         const quote = await getQuote()
