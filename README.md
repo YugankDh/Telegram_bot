@@ -12,7 +12,7 @@ A small and fun Telegram bot that responds to a few simple commands like sending
 ## Important
 
 Remember to install the required modules by-
-```npm install``` in the folder containing bot.js
+```npm install``` in the folder containing ```bot.js```
 
 ## Test it on your own
 https://t.me/YugankBot_bot
