@@ -1,16 +1,13 @@
 # Telegram Bot
 
-A simple Telegram bot with the following commands:
+A small and fun Telegram bot that responds to a few simple commands like sending memes, facts, and quotes. It also has integration with Google Gemini AI for chatting.
 
-- **`$meme`**: Get a random meme.
-- **`$fact`**: Receive a random fact.
-- **`$quote`**: Get a random quote.
-- **`/chat <prompt>`**: Talk to Google Gemini AI.
+## Features
 
-## Getting Started
+- `$meme` : Sends a random meme from a meme API.
+- `$fact` : Returns a random fact.
+- `$quote` : Fetches a random quote for inspiration or fun.
+- `/chat <prompt>` : Talk to Google Gemini AI with any prompt and get a response.
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (for running the bot)
-- [Telegram Bot Token](https://core.telegram.org/bots#botfather) (obtained from BotFather on Telegram)
-- An API key for Google Gemini AI (if applicable)
+## Test it on your own
+`https://t.me/YugankBot_bot`
